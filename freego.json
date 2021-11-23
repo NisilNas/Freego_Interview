@@ -1,0 +1,243 @@
+{"intents": [
+    		{
+			"tag": "general",
+     			"patterns": ["your current location"],
+     			"responses": ["kannur", "kochi", "trivadrum", "None"],
+        		"answer": [1],
+     			"context": [""]
+        	},
+   
+        	{
+			"tag": "general",
+     			"patterns": ["what is the required age limit of an employe ?"],
+     			"responses": ["18-20", "21-27", "28-33", "33 & above"],
+			"answer": [1],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "general",
+     			"patterns": ["communication skill required by the employe ?"],
+     			"responses": ["Excellent", "Good", "Average", "Not much"],
+			"answer": [0],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "general",
+     			"patterns": ["languages known by the employe ?"],
+     			"responses": ["english", "malayalam", "Hindi", "tamil"],
+			"answer": [0],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "general",
+     			"patterns": ["how much percentage in the acadamic of the candidate are you looking for ?"],
+     			"responses": ["90% &Above", "80% &Above", "70% &Above", "60% & Above"],
+			"answer": [1],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "general",
+     			"patterns": ["which shift you are willing to work"],
+     			"responses": ["morning", "evening", "night", "fullday"],
+			"answer": [0],
+     			"context": [""]
+        	},
+
+        	{
+			"tag": "general",
+     			"patterns": ["where would you wish to place the employe?"],
+     			"responses": ["kerala", "tamilnadu", "banglore", "abroad"],
+			"answer": [0],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "general",
+     			"patterns": ["can you disclose the job position which you intented to offer"],
+     			"responses": ["python developer", "data analyst", "AI developer", "web developer"],
+			"answer": [0],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "general",
+     			"patterns": ["how much would you be willing to pay the employee?"],
+     			"responses": ["2-2.5LPA", "2.5-3LPA", "3-4LPA", "4-4.5LPA"],
+			"answer": [1],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "general",
+     			"patterns": ["how many years of experience expected from the employee"],
+     			"responses": ["1year", "2year", "3year", "3&above"],
+			"answer": [0],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "general",
+     			"patterns": ["what are the soft skill requirement needed ?"],
+     			"responses": ["communication", "teamwork", "problem solving", "all the above"],
+			"answer": [3],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "general",
+     			"patterns": ["is there any benefits is offered by the company to the worker who is selected for this post?"],
+     			"responses": ["PF", "Insurance", "ESI", "all the above"],
+			"answer": [3],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "general",
+     			"patterns": ["what type of coding skills are you looking for ?"],
+     			"responses": ["javascript", "java", "python", "C++"],
+			"answer": [2],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "general",
+     			"patterns": ["which phase of programmers do you prefer ?"],
+     			"responses": ["Front end", "Back end", "Fullstack", "Data science"],
+			"answer": [0],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "general",
+     			"patterns": ["frontend developer technical skill which you are looking for?"],
+     			"responses": ["HTML/ CSS", "javascript/query", "version control /Git", "all the above"],
+			"answer": [3],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "general",
+     			"patterns": ["which backend programming languages do you prefer?"],
+     			"responses": ["NET(C#,VB)", "ruby", "python", "javascript"],
+			"answer": [2],
+     			"context": [""]
+       	 	},
+
+		{
+			"tag": "general",
+     			"patterns": ["Technical skill which you are looking in web developers ?"],
+     			"responses": ["javascript", "jQuery", "Angular JS", "CSS"],
+			"answer": [0],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "skill",
+     			"patterns": ["Which of the following is correct about Angular 2 Components?"],
+     			"responses": ["AngularJS had a focus of Controllers but Angular 2 has changed the focus to having components over controllers", "Components help to build the applications into many modules", "This helps in better maintaining the application over a period of time", "all the above"],
+			"answer": [3],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "skill",
+     			"patterns": ["Which of the following is correct about TypeScript?"],
+     			"responses": ["Angular 2 is based on TypeScript", "This is a superset of JavaScript", "TypeScript is maintained by Microsoft", "all the above"],
+			"answer": [3],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "skill",
+     			"patterns": ["Which of the following is correct about Services?"],
+     			"responses": ["Angular 2 Services are a set of code that can be shared by different components of an application", "Angular 2 Services cannot be used across multiple applications", "Angular 2 Services help to build the applications into many modules", "all the above"],
+			"answer": [0],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "skill",
+     			"patterns": ["Angular 2 integrates easily with NativeScript, allowing you to code your native app in a __________ style that can run on any mobile device platform"],
+     			"responses": ["declarative", "imperative", "interrogative", "exclamatory"],
+			"answer": [0],
+     			"context": [""]
+       		},
+
+		{
+			"tag": "skill",
+     			"patterns": ["Angular 2 components can be described using __________ is a way to do some meta-programming"],
+     			"responses": ["controllers, controller", "loaders, loader", "typescripts, typescript", "decorators, decorator"],
+			"answer": [3],
+     			"context": [""]
+       	 	},
+
+		{
+			"tag": "skill",
+     			"patterns": ["The __________ directive substitutes the normal href property and makes it easier to work with route links in Angular 2"],
+     			"responses": ["RouterLink", "RouterRend", "RouterLike", "RouterLayer"],
+			"answer": [0],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "skill",
+     			"patterns": ["Since Angular 2 defines a set of built-in directives, the __________ method passes them in a similar way in order to make them available in the entire application in order to prevent us from code duplications"],
+     			"responses": ["startup", "bootstrap", "constructor", "initialization"],
+			"answer": [1],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "skill",
+     			"patterns": ["What are the new features of Angular2?"],
+     			"responses": ["Component-Based", "Directives", "Dependency Injection", "All of these"],
+			"answer": [3],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "skill",
+     			"patterns": ["On the opposite side of event bindings (()) lie Angular's square-bracket syntax ([]) which signify a __________"],
+     			"responses": ["property binding", "class binding", "style binding", "Both A & B"],
+			"answer": [3],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "skill",
+     			"patterns": ["A special mention is required about the children element marked with the __________ directive attribute. This attribute qualifies the template that will be displayed when no other value defined by its ngSwitchWhen siblings matches the parent conditional expression"],
+     			"responses": ["ngDefault", "ngTemplateDefault", "ngDefaultSwitch", "ngSwitchDefault"],
+			"answer": [3],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "skill",
+     			"patterns": ["Which of the following is correct about Angular 2 Routing?"],
+     			"responses": ["Routing helps in directing users to different pages based on the option they choose on the main page", "Based on the option they choose, the required Angular Component will be rendered to the user", "Both of the above", "None"],
+			"answer": [2],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "skill",
+     			"patterns": ["Angular 2 is using __________ to detect changes"],
+     			"responses": ["zone$.js", "Scope.js", "zone.js", "zones.js"],
+			"answer": [2],
+     			"context": [""]
+        	},
+
+		{
+			"tag": "skill",
+     			"patterns": ["Angular 2 can detect when component data changes, and then automatically re-render the view to reflect that change"],
+     			"responses": ["True", "False", "Both", "None"],
+			"answer": [0],
+     			"context": [""]
+        	}
+
+   	    ]
+}
