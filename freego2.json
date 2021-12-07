@@ -1,0 +1,1563 @@
+{"intents": [
+    		{
+			"tag": "Start",
+			"patterns": ["Start"],
+     			"responses": "Can you disclose the job position which you prefer ?",
+     			"options": ["Python developer", "Data analyst", "AI developer", "Web developer"],
+        		"answer": ["Python developer"]
+        	},
+
+		{
+			"tag": "Python developer",
+			"patterns": ["Python developer"],
+     			"responses": "What type of coding skills are you looking for ?",
+     			"options": ["Javascript", "Angular", "Python", "Ruby"],
+        		"answer": ["python"]
+        	},
+
+		{
+			"tag": "Data analyst",
+			"patterns": ["Data analyst"],
+     			"responses": "What type of coding skills are you looking for ?",
+     			"options": ["Javascript", "Angular", "Python", "Ruby"],
+        		"answer": ["python"]
+        	},
+
+		{
+			"tag": "AI developer",
+			"patterns": ["AI developer"],
+     			"responses": "What type of coding skills are you looking for ?",
+     			"options": ["Javascript", "Angular", "Python", "Ruby"],
+        		"answer": ["python"]
+        	},
+
+		{
+			"tag": "Web developer",
+			"patterns": ["Web developer"],
+     			"responses": "What type of coding skills are you looking for ?",
+     			"options": ["Javascript", "Angular", "Python", "Ruby"],
+        		"answer": ["Javascript"]
+        	},
+
+		{
+			"tag": "Python",
+			"patterns": ["Python"],
+     			"responses": "Which phase of programmers do you prefer ?",
+     			"options": ["Frontend", "Backend", "Integration", "Data science"],
+        		"answer": ["Data science"]
+        	},
+
+		{
+			"tag": "Javascript",
+			"patterns": ["Javascript"],
+     			"responses": "Which phase of programmers do you prefer ?",
+     			"options": ["Frontend", "Backend", "Integration", "Data science"],
+        		"answer": ["Frontend"]
+        	},
+
+		{
+			"tag": "Ruby",
+			"patterns": ["Ruby"],
+     			"responses": "Which phase of programmers do you prefer ?",
+     			"options": ["Front-end", "Back-end", "Integration", "Data science"],
+        		"answer": ["Back-end"]
+        	},
+
+		{
+                        "tag": "Angular",
+                        "patterns": ["Angular"],
+                        "responses": "Which phase of programmers do you prefer ?",
+                        "options": ["Frontend", "Backend", "Integration", "Data science"],
+                        "answer": ["Backend"]
+                },
+
+		{
+			"tag": "Data science",
+			"patterns": ["Data science"],
+     			"responses": "How do we perform Bayesian classification when some features are missing ?",
+     			"options": ["We assuming the missing values as the mean of all values", "We integrate the posteriors probabilities over the missing features", "We ignore the missing features", "Drop the features completely"],
+        		"answer": ["We integrate the posteriors probabilities over the missing features"]
+        	},
+
+		{
+			"tag": "We assuming the missing values as the mean of all values",
+			"patterns": ["We assuming the missing values as the mean of all values"],
+     			"responses": "Which of the following statement is TRUE ?",
+     			"options": ["Outliers should be identified and removed always from a dataset", "Outliers can never be present in the testing dataset", "Outliers is a data point that is significantly close to other data points", "The nature of our business problem determines how outliers are used"],
+        		"answer": ["The nature of our business problem determines how outliers are used"]
+        	},
+
+		{
+			"tag": "We integrate the posteriors probabilities over the missing features",
+			"patterns": ["We integrate the posteriors probabilities over the missing features"],
+     			"responses": "Which of the following statement is TRUE ?",
+     			"options": ["Outliers should be identified and removed always from a dataset", "Outliers can never be present in the testing dataset", "Outliers is a data point that is significantly close to other data points", "The nature of our business problem determines how outliers are used"],
+        		"answer": ["The nature of our business problem determines how outliers are used"]
+        	},
+
+		{
+			"tag": "We ignore the missing features",
+			"patterns": ["We ignore the missing features"],
+     			"responses": "Which of the following statement is TRUE ?",
+     			"options": ["Outliers should be identified and removed always from a dataset", "Outliers can never be present in the testing dataset", "Outliers is a data point that is significantly close to other data points", "The nature of our business problem determines how outliers are used"],
+        		"answer": ["The nature of our business problem determines how outliers are used"]
+        	},
+
+		{
+			"tag": "Drop the features completely",
+			"patterns": ["Drop the features completely"],
+     			"responses": "Which of the following statement is TRUE ?",
+     			"options": ["Outliers should be identified and removed always from a dataset", "Outliers can never be present in the testing dataset", "Outliers is a data point that is significantly close to other data points", "The nature of our business problem determines how outliers are used"],
+        		"answer": ["The nature of our business problem determines how outliers are used"]
+        	},
+
+		{
+			"tag": "Outliers should be identified and removed always from a dataset",
+			"patterns": ["Outliers should be identified and removed always from a dataset"],
+     			"responses": "The robotic arm will be able to paint every corner in the automotive parts while minimizing the quantity of paint wasted in the process. Which learning technique is used in this problem ?",
+     			"options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Both A and B"],
+        		"answer": ["Reinforcement Learning"]
+        	},
+
+		{
+			"tag": "Outliers can never be present in the testing dataset",
+			"patterns": ["Outliers can never be present in the testing dataset"],
+     			"responses": "The robotic arm will be able to paint every corner in the automotive parts while minimizing the quantity of paint wasted in the process. Which learning technique is used in this problem ?",
+     			"options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Both A and B"],
+        		"answer": ["Reinforcement Learning"]
+        	},
+
+		{
+			"tag": "Outliers is a data point that is significantly close to other data points",
+			"patterns": ["Outliers is a data point that is significantly close to other data points"],
+     			"responses": "The robotic arm will be able to paint every corner in the automotive parts while minimizing the quantity of paint wasted in the process. Which learning technique is used in this problem ?",
+     			"options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Both A and B"],
+        		"answer": ["Reinforcement Learning"]
+        	},
+
+		{
+			"tag": "The nature of our business problem determines how outliers are used",
+			"patterns": ["The nature of our business problem determines how outliers are used"],
+     			"responses": "The robotic arm will be able to paint every corner in the automotive parts while minimizing the quantity of paint wasted in the process. Which learning technique is used in this problem ?",
+     			"options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Both A and B"],
+        		"answer": ["Reinforcement Learning"]
+        	},
+
+		{
+			"tag": "Supervised Learning",
+			"patterns": ["Supervised Learning"],
+     			"responses": "How do you choose the right node while constructing a decision tree ?",
+     			"options": ["An attribute having high entropy", "An attribute having high entropy and information gain", "An attribute having the lowest information gain", "An attribute having the highest information gain"],
+        		"answer": ["An attribute having the highest information gain"]
+        	},
+
+		{
+			"tag": "Unsupervised Learning",
+			"patterns": ["Unsupervised Learning"],
+     			"responses": "How do you choose the right node while constructing a decision tree ?",
+     			"options": ["An attribute having high entropy", "An attribute having high entropy and information gain", "An attribute having the lowest information gain", "An attribute having the highest information gain"],
+        		"answer": ["An attribute having the highest information gain"]
+        	},
+
+		{
+			"tag": "Reinforcement Learning",
+			"patterns": ["Reinforcement Learning"],
+     			"responses": "How do you choose the right node while constructing a decision tree ?",
+     			"options": ["An attribute having high entropy", "An attribute having high entropy and information gain", "An attribute having the lowest information gain", "An attribute having the highest information gain"],
+        		"answer": ["An attribute having the highest information gain"]
+        	},
+
+		{
+			"tag": "Both A and B",
+			"patterns": ["Both A and B"],
+     			"responses": "How do you choose the right node while constructing a decision tree ?",
+     			"options": ["An attribute having high entropy", "An attribute having high entropy and information gain", "An attribute having the lowest information gain", "An attribute having the highest information gain"],
+        		"answer": ["An attribute having the highest information gain"]
+        	},
+
+		{
+			"tag": "An attribute having high entropy",
+			"patterns": ["An attribute having high entropy"],
+     			"responses": "Which of the following statements is FALSE about Ridge and Lasso Regression ?",
+     			"options": ["These are types of regularization methods to solve the overfitting problem", "Lasso Regression is a type of regularization method", "Ridge regression shrinks the coefficient to a lower value", "Ridge regression lowers some coefficients to a zero value"],
+        		"answer": ["Ridge regression lowers some coefficients to a zero value"]
+        	},
+
+		{
+			"tag": "An attribute having high entropy and information gain",
+			"patterns": ["An attribute having high entropy and information gain"],
+     			"responses": "Which of the following statements is FALSE about Ridge and Lasso Regression ?",
+     			"options": ["These are types of regularization methods to solve the overfitting problem", "Lasso Regression is a type of regularization method", "Ridge regression shrinks the coefficient to a lower value", "Ridge regression lowers some coefficients to a zero value"],
+        		"answer": ["Ridge regression lowers some coefficients to a zero value"]
+        	},
+
+		{
+			"tag": "An attribute having the lowest information gain",
+			"patterns": ["An attribute having the lowest information gain"],
+     			"responses": "Which of the following statements is FALSE about Ridge and Lasso Regression ?",
+     			"options": ["These are types of regularization methods to solve the overfitting problem", "Lasso Regression is a type of regularization method", "Ridge regression shrinks the coefficient to a lower value", "Ridge regression lowers some coefficients to a zero value"],
+        		"answer": ["Ridge regression lowers some coefficients to a zero value"]
+        	},
+
+		{
+			"tag": "An attribute having the highest information gain",
+			"patterns": ["An attribute having the highest information gain"],
+     			"responses": "Which of the following statements is FALSE about Ridge and Lasso Regression ?",
+     			"options": ["These are types of regularization methods to solve the overfitting problem", "Lasso Regression is a type of regularization method", "Ridge regression shrinks the coefficient to a lower value", "Ridge regression lowers some coefficients to a zero value"],
+        		"answer": ["Ridge regression lowers some coefficients to a zero value"]
+        	},
+
+		{
+			"tag": "These are types of regularization methods to solve the overfitting problem",
+			"patterns": ["These are types of regularization methods to solve the overfitting problem"],
+     			"responses": "Which of the following SGD variants is based on both momentum and adaptive learning ?",
+     			"options": ["RMSprop", "Adagrad", "Adam", "Nesterov"],
+        		"answer": ["Adam"]
+        	},
+
+		{
+			"tag": "Lasso Regression is a type of regularization method",
+			"patterns": ["Lasso Regression is a type of regularization method"],
+     			"responses": "Which of the following SGD variants is based on both momentum and adaptive learning ?",
+     			"options": ["RMSprop", "Adagrad", "Adam", "Nesterov"],
+        		"answer": ["Adam"]
+        	},
+
+		{
+			"tag": "Ridge regression shrinks the coefficient to a lower value",
+			"patterns": ["Ridge regression shrinks the coefficient to a lower value"],
+     			"responses": "Which of the following SGD variants is based on both momentum and adaptive learning ?",
+     			"options": ["RMSprop", "Adagrad", "Adam", "Nesterov"],
+        		"answer": ["Adam"]
+        	},
+
+		{
+			"tag": "Ridge regression lowers some coefficients to a zero value",
+			"patterns": ["Ridge regression lowers some coefficients to a zero value"],
+     			"responses": "Which of the following SGD variants is based on both momentum and adaptive learning ?",
+     			"options": ["RMSprop", "Adagrad", "Adam", "Nesterov"],
+        		"answer": ["Adam"]
+        	},
+
+		{
+			"tag": "RMSprop",
+			"patterns": ["RMSprop"],
+     			"responses": "Inappropriate selection of learning rate value in gradient descent gives rise to ?",
+     			"options": ["Local Minima", "Oscillations", "Slow convergence", "All of the above"],
+        		"answer": ["All of the above"]
+        	},
+
+		{
+			"tag": "Adagrad",
+			"patterns": ["Adagrad"],
+     			"responses": "Inappropriate selection of learning rate value in gradient descent gives rise to ?",
+     			"options": ["Local Minima", "Oscillations", "Slow convergence", "All of the above"],
+        		"answer": ["All of the above"]
+        	},
+
+		{
+			"tag": "Adam",
+			"patterns": ["Adam"],
+     			"responses": "Inappropriate selection of learning rate value in gradient descent gives rise to ?",
+     			"options": ["Local Minima", "Oscillations", "Slow convergence", "All of the above"],
+        		"answer": ["All of the above"]
+        	},
+
+		{
+			"tag": "Nesterov",
+			"patterns": ["Nesterov"],
+     			"responses": "Inappropriate selection of learning rate value in gradient descent gives rise to ?",
+     			"options": ["Local Minima", "Oscillations", "Slow convergence", "All of the above"],
+        		"answer": ["All of the above"]
+        	},
+
+		{
+			"tag": "Local Minima",
+			"patterns": ["Local Minima"],
+     			"responses": "Which of the following is FALSE about Deep Learning and Machine Learning algorithms ?",
+     			"options": ["Deep Learning algorithms work efficiently on a high amount of data", "Feature Extraction needs to be done manually in both ML and DL algorithms", "Deep Learning algorithms are best suited for unstructured data", "Deep Learning algorithms require high computational power"],
+        		"answer": ["Feature Extraction needs to be done manually in both ML and DL algorithms"]
+        	},
+
+		{
+			"tag": "Oscillations",
+			"patterns": ["Oscillations"],
+     			"responses": "Which of the following is FALSE about Deep Learning and Machine Learning algorithms ?",
+     			"options": ["Deep Learning algorithms work efficiently on a high amount of data", "Feature Extraction needs to be done manually in both ML and DL algorithms", "Deep Learning algorithms are best suited for unstructured data", "Deep Learning algorithms require high computational power"],
+        		"answer": ["Feature Extraction needs to be done manually in both ML and DL algorithms"]
+        	},
+
+		{
+			"tag": "Slow convergence",
+			"patterns": ["Slow convergence"],
+     			"responses": "Which of the following is FALSE about Deep Learning and Machine Learning algorithms ?",
+     			"options": ["Deep Learning algorithms work efficiently on a high amount of data", "Feature Extraction needs to be done manually in both ML and DL algorithms", "Deep Learning algorithms are best suited for unstructured data", "Deep Learning algorithms require high computational power"],
+        		"answer": ["Feature Extraction needs to be done manually in both ML and DL algorithms"]
+        	},
+
+		{
+			"tag": "All of the above",
+			"patterns": ["All of the above"],
+     			"responses": "Which of the following is FALSE about Deep Learning and Machine Learning algorithms ?",
+     			"options": ["Deep Learning algorithms work efficiently on a high amount of data", "Feature Extraction needs to be done manually in both ML and DL algorithms", "Deep Learning algorithms are best suited for unstructured data", "Deep Learning algorithms require high computational power"],
+        		"answer": ["Feature Extraction needs to be done manually in both ML and DL algorithms"]
+        	},
+
+		{
+			"tag": "Deep Learning algorithms work efficiently on a high amount of data",
+			"patterns": ["Deep Learning algorithms work efficiently on a high amount of data"],
+     			"responses": "Which of the following activation function output is zero centered ?",
+     			"options": ["Hyperbolic Tangent", "Sigmoid", "Softmax", "Rectified Linear unit(ReLU)"],
+        		"answer": ["Hyperbolic Tangent"]
+        	},
+
+		{
+			"tag": "Feature Extraction needs to be done manually in both ML and DL algorithms",
+			"patterns": ["Feature Extraction needs to be done manually in both ML and DL algorithms"],
+     			"responses": "Which of the following activation function output is zero centered ?",
+     			"options": ["Hyperbolic Tangent", "Sigmoid", "Softmax", "Rectified Linear unit(ReLU)"],
+        		"answer": ["Hyperbolic Tangent"]
+        	},
+
+		{
+			"tag": "Deep Learning algorithms are best suited for unstructured data",
+			"patterns": ["Deep Learning algorithms are best suited for unstructured data"],
+     			"responses": "Which of the following activation function output is zero centered ?",
+     			"options": ["Hyperbolic Tangent", "Sigmoid", "Softmax", "Rectified Linear unit(ReLU)"],
+        		"answer": ["Hyperbolic Tangent"]
+        	},
+
+		{
+			"tag": "Deep Learning algorithms require high computational power",
+			"patterns": ["Deep Learning algorithms require high computational power"],
+     			"responses": "Which of the following activation function output is zero centered ?",
+     			"options": ["Hyperbolic Tangent", "Sigmoid", "Softmax", "Rectified Linear unit(ReLU)"],
+        		"answer": ["Hyperbolic Tangent"]
+        	},
+
+		{
+			"tag": "Hyperbolic Tangent",
+			"patterns": ["Hyperbolic Tangent"],
+     			"responses": "Which of the following is NOT True about Ensemble Techniques ?",
+     			"options": ["Bagging decreases the variance of the classifier", "Boosting helps to decrease the bias of the classifier", "Bagging combines the predictions from different models and then finally gives the results", "Bagging and Boosting are the only available ensemble techniques"],
+        		"answer": ["Bagging and Boosting are the only available ensemble techniques"]
+        	},
+
+		{
+			"tag": "Sigmoid",
+			"patterns": ["Sigmoid"],
+     			"responses": "Which of the following is NOT True about Ensemble Techniques ?",
+     			"options": ["Bagging decreases the variance of the classifier", "Boosting helps to decrease the bias of the classifier", "Bagging combines the predictions from different models and then finally gives the results", "Bagging and Boosting are the only available ensemble techniques"],
+        		"answer": ["Bagging and Boosting are the only available ensemble techniques"]
+        	},
+
+		{
+			"tag": "Softmax",
+			"patterns": ["Softmax"],
+     			"responses": "Which of the following is NOT True about Ensemble Techniques ?",
+     			"options": ["Bagging decreases the variance of the classifier", "Boosting helps to decrease the bias of the classifier", "Bagging combines the predictions from different models and then finally gives the results", "Bagging and Boosting are the only available ensemble techniques"],
+        		"answer": ["Bagging and Boosting are the only available ensemble techniques"]
+        	},
+
+		{
+			"tag": "Rectified Linear unit(ReLU)",
+			"patterns": ["Rectified Linear unit(ReLU)"],
+     			"responses": "Which of the following is NOT True about Ensemble Techniques ?",
+     			"options": ["Bagging decreases the variance of the classifier", "Boosting helps to decrease the bias of the classifier", "Bagging combines the predictions from different models and then finally gives the results", "Bagging and Boosting are the only available ensemble techniques"],
+        		"answer": ["Bagging and Boosting are the only available ensemble techniques"]
+        	},
+
+		{
+			"tag": "Integration",
+			"patterns": ["Integration"],
+     			"responses": "Is Python case sensitive when dealing with identifiers ?",
+     			"options": ["yes", "No", "Machine dependent", "None of the mentioned"],
+        		"answer": ["yes"]
+        	},
+	
+		{
+			"tag": "yes",
+			"patterns": ["yes"],
+     			"responses": "What is the maximum possible length of an identifier ?",
+     			"options": ["Seventy nine characters", "Thirty one characters", "sixty three characters", "None of the above"],
+        		"answer": ["None of the above"]
+        	},
+
+		{
+			"tag": "No",
+			"patterns": ["No"],
+     			"responses": "What is the maximum possible length of an identifier ?",
+     			"options": ["Seventy nine characters", "Thirty one characters", "sixty three characters", "None of the above"],
+        		"answer": ["None of the above"]
+        	},
+
+		{
+			"tag": "Machine dependent",
+			"patterns": ["Machine dependent"],
+     			"responses": "What is the maximum possible length of an identifier ?",
+     			"options": ["Seventy nine characters", "Thirty one characters", "sixty three characters", "None of the above"],
+        		"answer": ["None of the above"]
+        	},
+
+		{
+			"tag": "None of the mentioned",
+			"patterns": ["None of the mentioned"],
+     			"responses": "What is the maximum possible length of an identifier ?",
+     			"options": ["Seventy nine characters", "Thirty one characters", "sixty three characters", "None of the above"],
+        		"answer": ["None of the above"]
+        	},
+
+		{
+			"tag": "Seventy nine characters",
+			"patterns": ["Seventy nine characters"],
+     			"responses": "Which of the following is not a keyword ?",
+     			"options": ["<Pass>", "<Assert>", "<Nonlocal>", "<Eval>"],
+        		"answer": ["<Eval>"]
+        	},
+
+		{
+			"tag": "Thirty one characters",
+			"patterns": ["Thirty one characters"],
+     			"responses": "Which of the following is not a keyword ?",
+     			"options": ["<Pass>", "<Assert>", "<Nonlocal>", "<Eval>"],
+        		"answer": ["<Eval>"]
+        	},
+
+		{
+			"tag": "sixty three characters",
+			"patterns": ["sixty three characters"],
+     			"responses": "Which of the following is not a keyword ?",
+     			"options": ["<Pass>", "<Assert>", "<Nonlocal>", "<Eval>"],
+        		"answer": ["<Eval>"]
+        	},
+
+		{
+			"tag": "None of the above",
+			"patterns": ["None of the above"],
+     			"responses": "Which of the following is not a keyword ?",
+     			"options": ["<Pass>", "<Assert>", "<Nonlocal>", "<Eval>"],
+        		"answer": ["<Eval>"]
+        	},
+
+		{
+			"tag": "<Pass>",
+			"patterns": ["<Pass>"],
+     			"responses": "All keywords in Python are in ?",
+     			"options": ["UPPER CASE", "Capitalized", "Lower case", "None"],
+        		"answer": ["None"]
+        	},
+
+		{
+			"tag": "<Assert>",
+			"patterns": ["<Assert>"],
+     			"responses": "All keywords in Python are in ?",
+     			"options": ["UPPER CASE", "Capitalized", "Lower case", "None"],
+        		"answer": ["None"]
+        	},
+
+		{
+			"tag": "<Nonlocal>",
+			"patterns": ["<Nonlocal>"],
+     			"responses": "All keywords in Python are in ?",
+     			"options": ["UPPER CASE", "Capitalized", "Lower case", "None"],
+        		"answer": ["None"]
+        	},
+
+		{
+			"tag": "<Eval>",
+			"patterns": ["<Eval>"],
+     			"responses": "All keywords in Python are in ?",
+     			"options": ["UPPER CASE", "Capitalized", "Lower case", "None"],
+        		"answer": ["None"]
+        	},
+
+		{
+			"tag": "UPPER CASE",
+			"patterns": ["UPPER CASE"],
+     			"responses": "Which one of the following has the highest precedence in the expression ?",
+     			"options": ["Exponential", "Multiplication", "Parentheses", "Addition"],
+        		"answer": ["Parentheses"]
+        	},
+
+		{
+			"tag": "Capitalized",
+			"patterns": ["Capitalized"],
+     			"responses": "Which one of the following has the highest precedence in the expression ?",
+     			"options": ["Exponential", "Multiplication", "Parentheses", "Addition"],
+        		"answer": ["Parentheses"]
+        	},
+
+		{
+			"tag": "Lower case",
+			"patterns": ["Lower case"],
+     			"responses": "Which one of the following has the highest precedence in the expression ?",
+     			"options": ["Exponential", "Multiplication", "Parentheses", "Addition"],
+        		"answer": ["Parentheses"]
+        	},
+
+		{
+			"tag": "None",
+			"patterns": ["None"],
+     			"responses": "Which one of the following has the highest precedence in the expression ?",
+     			"options": ["Exponential", "Multiplication", "Parentheses", "Addition"],
+        		"answer": ["Parentheses"]
+        	},
+
+		{
+			"tag": "Exponential",
+			"patterns": ["Exponential"],
+     			"responses": "Which of these in not a core data type ?",
+     			"options": ["Class", "Lists", "Tuples", "Dictionary"],
+        		"answer": ["Class"]
+        	},
+
+		{
+			"tag": "Multiplication",
+			"patterns": ["Multiplication"],
+     			"responses": "Which of these in not a core data type ?",
+     			"options": ["Class", "Lists", "Tuples", "Dictionary"],
+        		"answer": ["Class"]
+        	},
+
+		{
+			"tag": "Parentheses",
+			"patterns": ["Parentheses"],
+     			"responses": "Which of these in not a core data type ?",
+     			"options": ["Class", "Lists", "Tuples", "Dictionary"],
+        		"answer": ["Class"]
+        	},
+
+		{
+			"tag": "Addition",
+			"patterns": ["Addition"],
+     			"responses": "Which of these in not a core data type ?",
+     			"options": ["Class", "Lists", "Tuples", "Dictionary"],
+        		"answer": ["Class"]
+        	},
+
+		{
+			"tag": "Class",
+			"patterns": ["Class"],
+     			"responses": "What is the return type of function id ?",
+     			"options": ["Float", "Bool", "Int", "Dict"],
+        		"answer": ["Int"]
+        	},
+
+		{
+			"tag": "Lists",
+			"patterns": ["Lists"],
+     			"responses": "What is the return type of function id ?",
+     			"options": ["Float", "Bool", "Int", "Dict"],
+        		"answer": ["Int"]
+        	},
+
+		{
+			"tag": "Tuples",
+			"patterns": ["Tuples"],
+     			"responses": "What is the return type of function id ?",
+     			"options": ["Float", "Bool", "Int", "Dict"],
+        		"answer": ["Int"]
+        	},
+
+		{
+			"tag": "Dictionary",
+			"patterns": ["Dictionary"],
+     			"responses": "What is the return type of function id ?",
+     			"options": ["Float", "Bool", "Int", "Dict"],
+        		"answer": ["Int"]
+        	},
+
+		{
+			"tag": "Float",
+			"patterns": ["Float"],
+     			"responses": "Which of the following is not a standard exception in Python ?",
+     			"options": ["NameError", "AssignmentError", "IOError", "ValueError"],
+        		"answer": ["AssignmentError"]
+        	},
+
+		{
+			"tag": "Bool",
+			"patterns": ["Bool"],
+     			"responses": "Which of the following is not a standard exception in Python ?",
+     			"options": ["NameError", "AssignmentError", "IOError", "ValueError"],
+        		"answer": ["AssignmentError"]
+        	},
+
+		{
+			"tag": "Int",
+			"patterns": ["Int"],
+     			"responses": "Which of the following is not a standard exception in Python ?",
+     			"options": ["NameError", "AssignmentError", "IOError", "ValueError"],
+        		"answer": ["AssignmentError"]
+        	},
+
+		{
+			"tag": "Dict",
+			"patterns": ["Dict"],
+     			"responses": "Which of the following is not a standard exception in Python ?",
+     			"options": ["NameError", "AssignmentError", "IOError", "ValueError"],
+        		"answer": ["AssignmentError"]
+        	},
+
+		{
+			"tag": "NameError",
+			"patterns": ["NameError"],
+     			"responses": "An exception is ?",
+     			"options": ["A standard module", "A special function", "A module", "An object"],
+        		"answer": ["An object"]
+        	},
+
+		{
+			"tag": "AssignmentError",
+			"patterns": ["AssignmentError"],
+     			"responses": "An exception is ?",
+     			"options": ["A standard module", "A special function", "A module", "An object"],
+        		"answer": ["An object"]
+        	},
+
+		{
+			"tag": "IOError",
+			"patterns": ["IOError"],
+     			"responses": "An exception is ?",
+     			"options": ["A standard module", "A special function", "A module", "An object"],
+        		"answer": ["An object"]
+        	},
+
+		{
+			"tag": "ValueError",
+			"patterns": ["ValueError"],
+     			"responses": "An exception is ?",
+     			"options": ["A standard module", "A special function", "A module", "An object"],
+        		"answer": ["An object"]
+        	},
+
+		{
+			"tag": "A standard module",
+			"patterns": ["A standard module"],
+     			"responses": "Is Python code compiled or interpreted ?",
+     			"options": ["Python code is both compiled and interpreted", "Python code is neither compiled nor interpreted", "Python code is only compiled", "Python code is only interpreted"],
+        		"answer": ["Python code is neither compiled nor interpreted"]
+        	},
+
+		{
+			"tag": "A special function",
+			"patterns": ["A special function"],
+     			"responses": "Is Python code compiled or interpreted ?",
+     			"options": ["Python code is both compiled and interpreted", "Python code is neither compiled nor interpreted", "Python code is only compiled", "Python code is only interpreted"],
+        		"answer": ["Python code is neither compiled nor interpreted"]
+        	},
+
+		{
+			"tag": "A module",
+			"patterns": ["A module"],
+     			"responses": "Is Python code compiled or interpreted ?",
+     			"options": ["Python code is both compiled and interpreted", "Python code is neither compiled nor interpreted", "Python code is only compiled", "Python code is only interpreted"],
+        		"answer": ["Python code is neither compiled nor interpreted"]
+        	},
+
+		{
+			"tag": "An object",
+			"patterns": ["An object"],
+     			"responses": "Is Python code compiled or interpreted ?",
+     			"options": ["Python code is both compiled and interpreted", "Python code is neither compiled nor interpreted", "Python code is only compiled", "Python code is only interpreted"],
+        		"answer": ["Python code is neither compiled nor interpreted"]
+        	},
+
+		{
+			"tag": "Frontend",
+			"patterns": ["Frontend"],
+     			"responses": "Which type of language is JavaScript ?",
+     			"options": ["Object-Oriented", "Object-Based", "Assembly-language", "High-level"],
+        		"answer": ["Object-Based"]
+        	},
+
+		{
+			"tag": "Front-end",
+			"patterns": ["Front-end"],
+     			"responses": "Which type of language is JavaScript ?",
+     			"options": ["Object-Oriented", "Object-Based", "Assembly-language", "High-level"],
+        		"answer": ["Object-Based"]
+        	},
+
+		{
+			"tag": "Object-Oriented",
+			"patterns": ["Object-Oriented"],
+     			"responses": "Which one of the following also known as Conditional Expression ?",
+     			"options": ["Alternative to if-else", "Switch statement", "If-then-else statement", "Immediate if"],
+        		"answer": ["Immediate if"]
+        	},
+
+		{
+			"tag": "Object-Based",
+			"patterns": ["Object-Based"],
+     			"responses": "Which one of the following also known as Conditional Expression ?",
+     			"options": ["Alternative to if-else", "Switch statement", "If-then-else statement", "Immediate if"],
+        		"answer": ["Immediate if"]
+        	},
+
+		{
+			"tag": "Assembly-language",
+			"patterns": ["Assembly-language"],
+     			"responses": "Which one of the following also known as Conditional Expression ?",
+     			"options": ["Alternative to if-else", "Switch statement", "If-then-else statement", "Immediate if"],
+        		"answer": ["Immediate if"]
+        	},
+
+		{
+			"tag": "High-level",
+			"patterns": ["High-level"],
+     			"responses": "Which one of the following also known as Conditional Expression ?",
+     			"options": ["Alternative to if-else", "Switch statement", "If-then-else statement", "Immediate if"],
+        		"answer": ["Immediate if"]
+        	},
+
+		{
+			"tag": "Alternative to if-else",
+			"patterns": ["Alternative to if-else"],
+     			"responses": "In JavaScript, what is a block of statement ?",
+     			"options": ["Conditional block", "block that combines a number of statements into a single compound statement", "both conditional block and a single statement", "block that contains a single statement"],
+        		"answer": ["block that combines a number of statements into a single compound statement"]
+        	},
+
+		{
+			"tag": "Switch statement",
+			"patterns": ["Switch statement"],
+     			"responses": "In JavaScript, what is a block of statement ?",
+     			"options": ["Conditional block", "block that combines a number of statements into a single compound statement", "both conditional block and a single statement", "block that contains a single statement"],
+        		"answer": ["block that combines a number of statements into a single compound statement"]
+        	},
+
+		{
+			"tag": "If-then-else statement",
+			"patterns": ["If-then-else statement"],
+     			"responses": "In JavaScript, what is a block of statement ?",
+     			"options": ["Conditional block", "block that combines a number of statements into a single compound statement", "both conditional block and a single statement", "block that contains a single statement"],
+        		"answer": ["block that combines a number of statements into a single compound statement"]
+        	},
+
+		{
+			"tag": "Immediate if",
+			"patterns": ["Immediate if"],
+     			"responses": "In JavaScript, what is a block of statement ?",
+     			"options": ["Conditional block", "block that combines a number of statements into a single compound statement", "both conditional block and a single statement", "block that contains a single statement"],
+        		"answer": ["block that combines a number of statements into a single compound statement"]
+        	},
+
+		{
+			"tag": "Conditional block",
+			"patterns": ["Conditional block"],
+     			"responses": "When interpreter encounters an empty statement what it will do ?",
+     			"options": ["Shows a warning", "Prompts to complete the statement", "Throws an error", "Ignores the statements"],
+        		"answer": ["Ignores the statements"]
+        	},
+
+		{
+			"tag": "block that combines a number of statements into a single compound statement",
+			"patterns": ["block that combines a number of statements into a single compound statement"],
+     			"responses": "When interpreter encounters an empty statement what it will do ?",
+     			"options": ["Shows a warning", "Prompts to complete the statement", "Throws an error", "Ignores the statements"],
+        		"answer": ["Ignores the statements"]
+        	},
+
+		{
+			"tag": "both conditional block and a single statement",
+			"patterns": ["both conditional block and a single statement"],
+     			"responses": "When interpreter encounters an empty statement what it will do ?",
+     			"options": ["Shows a warning", "Prompts to complete the statement", "Throws an error", "Ignores the statements"],
+        		"answer": ["Ignores the statements"]
+        	},
+
+		{
+			"tag": "block that contains a single statement",
+			"patterns": ["block that contains a single statement"],
+     			"responses": "When interpreter encounters an empty statement what it will do ?",
+     			"options": ["Shows a warning", "Prompts to complete the statement", "Throws an error", "Ignores the statements"],
+        		"answer": ["Ignores the statements"]
+        	},
+
+		{
+			"tag": "Shows a warning",
+			"patterns": ["Shows a warning"],
+     			"responses": "Which of the following variables takes precedence over the others if the names are the same ?",
+     			"options": ["Global variable", "The local element", "The two of the above", "None of above"],
+        		"answer": ["The local element"]
+        	},
+
+		{
+			"tag": "Prompts to complete the statement",
+			"patterns": ["Prompts to complete the statement"],
+     			"responses": "Which of the following variables takes precedence over the others if the names are the same ?",
+     			"options": ["Global variable", "The local element", "The two of the above", "None of above"],
+        		"answer": ["The local element"]
+        	},
+
+		{
+			"tag": "Throws an error",
+			"patterns": ["Throws an error"],
+     			"responses": "Which of the following variables takes precedence over the others if the names are the same ?",
+     			"options": ["Global variable", "The local element", "The two of the above", "None of above"],
+        		"answer": ["The local element"]
+        	},
+
+		{
+			"tag": "Ignores the statements",
+			"patterns": ["Ignores the statements"],
+     			"responses": "Which of the following variables takes precedence over the others if the names are the same ?",
+     			"options": ["Global variable", "The local element", "The two of the above", "None of above"],
+        		"answer": ["The local element"]
+        	},
+
+		{
+			"tag": "Global variable",
+			"patterns": ["Global variable"],
+     			"responses": "Which one of the following is the correct way for calling the JavaScript code ?",
+     			"options": ["Preprocessor", "Triggering Event", "RMI", "Function/Method"],
+        		"answer": ["Function/Method"]
+        	},
+
+		{
+			"tag": "The local element",
+			"patterns": ["The local element"],
+     			"responses": "Which one of the following is the correct way for calling the JavaScript code ?",
+     			"options": ["Preprocessor", "Triggering Event", "RMI", "Function/Method"],
+        		"answer": ["Function/Method"]
+        	},
+
+		{
+			"tag": "The two of the above",
+			"patterns": ["The two of the above"],
+     			"responses": "Which one of the following is the correct way for calling the JavaScript code ?",
+     			"options": ["Preprocessor", "Triggering Event", "RMI", "Function/Method"],
+        		"answer": ["Function/Method"]
+        	},
+
+		{
+			"tag": "None of above",
+			"patterns": ["None of above"],
+     			"responses": "Which one of the following is the correct way for calling the JavaScript code ?",
+     			"options": ["Preprocessor", "Triggering Event", "RMI", "Function/Method"],
+        		"answer": ["Function/Method"]
+        	},
+
+		{
+			"tag": "Preprocessor",
+			"patterns": ["Preprocessor"],
+     			"responses": "When there is an indefinite or an infinite value during an arithmetic computation in a program, then JavaScript prints ?",
+     			"options": ["Prints an exception error", "Prints an overflow error", "Displays Infinity", "Prints the value as such"],
+        		"answer": ["Displays Infinity"]
+        	},
+
+		{
+			"tag": "Triggering Event",
+			"patterns": ["Triggering Event"],
+     			"responses": "When there is an indefinite or an infinite value during an arithmetic computation in a program, then JavaScript prints ?",
+     			"options": ["Prints an exception error", "Prints an overflow error", "Displays Infinity", "Prints the value as such"],
+        		"answer": ["Displays Infinity"]
+        	},
+
+		{
+			"tag": "RMI",
+			"patterns": ["RMI"],
+     			"responses": "When there is an indefinite or an infinite value during an arithmetic computation in a program, then JavaScript prints ?",
+     			"options": ["Prints an exception error", "Prints an overflow error", "Displays Infinity", "Prints the value as such"],
+        		"answer": ["Displays Infinity"]
+        	},
+
+		{
+			"tag": "Function/Method",
+			"patterns": ["Function/Method"],
+     			"responses": "When there is an indefinite or an infinite value during an arithmetic computation in a program, then JavaScript prints ?",
+     			"options": ["Prints an exception error", "Prints an overflow error", "Displays Infinity", "Prints the value as such"],
+        		"answer": ["Displays Infinity"]
+        	},
+
+		{
+			"tag": "Prints an exception error",
+			"patterns": ["Prints an exception error"],
+     			"responses": "Which of the following given functions of the Number Object formats a number with a different number of digits to the right of the decimal ?",
+     			"options": ["toExponential()", "toFixed()", "toPrecision()", "toLocaleString()"],
+        		"answer": ["toFixed()"]
+        	},
+
+		{
+			"tag": "Prints an overflow error",
+			"patterns": ["Prints an overflow error"],
+     			"responses": "Which of the following given functions of the Number Object formats a number with a different number of digits to the right of the decimal ?",
+     			"options": ["toExponential()", "toFixed()", "toPrecision()", "toLocaleString()"],
+        		"answer": ["toFixed()"]
+        	},
+
+		{
+			"tag": "Displays Infinity",
+			"patterns": ["Displays Infinity"],
+     			"responses": "Which of the following given functions of the Number Object formats a number with a different number of digits to the right of the decimal ?",
+     			"options": ["toExponential()", "toFixed()", "toPrecision()", "toLocaleString()"],
+        		"answer": ["toFixed()"]
+        	},
+
+		{
+			"tag": "Prints the value as such",
+			"patterns": ["Prints the value as such"],
+     			"responses": "Which of the following given functions of the Number Object formats a number with a different number of digits to the right of the decimal ?",
+     			"options": ["toExponential()", "toFixed()", "toPrecision()", "toLocaleString()"],
+        		"answer": ["toFixed()"]
+        	},
+
+		{
+			"tag": "toExponential()",
+			"patterns": ["toExponential()"],
+     			"responses": "Which of the following one is the property of the primary expression ?",
+     			"options": ["Contains only keywords", "basic expressions containing all necessary functions", "contains variable references alone", "stand-alone expressions"],
+        		"answer": ["stand-alone expressions"]
+        	},
+
+		{
+			"tag": "toFixed()",
+			"patterns": ["toFixed()"],
+     			"responses": "Which of the following one is the property of the primary expression ?",
+     			"options": ["Contains only keywords", "basic expressions containing all necessary functions", "contains variable references alone", "stand-alone expressions"],
+        		"answer": ["stand-alone expressions"]
+        	},
+
+		{
+			"tag": "toPrecision()",
+			"patterns": ["toPrecision()"],
+     			"responses": "Which of the following one is the property of the primary expression ?",
+     			"options": ["Contains only keywords", "basic expressions containing all necessary functions", "contains variable references alone", "stand-alone expressions"],
+        		"answer": ["stand-alone expressions"]
+        	},
+
+		{
+			"tag": "toLocaleString()",
+			"patterns": ["toLocaleString()"],
+     			"responses": "Which of the following one is the property of the primary expression ?",
+     			"options": ["Contains only keywords", "basic expressions containing all necessary functions", "contains variable references alone", "stand-alone expressions"],
+        		"answer": ["stand-alone expressions"]
+        	},
+
+		{
+			"tag": "Contains only keywords",
+			"patterns": ["Contains only keywords"],
+     			"responses": "Which of the following function of the String object returns the character in the string starting at the specified position via the specified number of characters ?",
+     			"options": ["slice()", "split()", "substr()", "search()"],
+        		"answer": ["substr()"]
+        	},
+
+		{
+			"tag": "basic expressions containing all necessary functions",
+			"patterns": ["basic expressions containing all necessary functions"],
+     			"responses": "Which of the following function of the String object returns the character in the string starting at the specified position via the specified number of characters ?",
+     			"options": ["slice()", "split()", "substr()", "search()"],
+        		"answer": ["substr()"]
+        	},
+
+		{
+			"tag": "contains variable references alone",
+			"patterns": ["contains variable references alone"],
+     			"responses": "Which of the following function of the String object returns the character in the string starting at the specified position via the specified number of characters ?",
+     			"options": ["slice()", "split()", "substr()", "search()"],
+        		"answer": ["substr()"]
+        	},
+
+		{
+			"tag": "stand-alone expressions",
+			"patterns": ["stand-alone expressions"],
+     			"responses": "Which of the following function of the String object returns the character in the string starting at the specified position via the specified number of characters ?",
+     			"options": ["slice()", "split()", "substr()", "search()"],
+        		"answer": ["substr()"]
+        	},
+
+		{
+			"tag": "Back-end",
+			"patterns": ["Back-end"],
+     			"responses": "What is ruby ?",
+     			"options": ["Markup language", "Scripting language", "Procedural language", "Style-sheet language"],
+        		"answer": ["Scripting language"]
+        	},
+
+		{
+			"tag": "Markup language",
+			"patterns": ["Markup language"],
+     			"responses": "__________syntax matches with the Ruby’s syntax ?",
+     			"options": ["Java", "PHP", "Perl", "None_of_the_above"],
+        		"answer": ["Perl"]
+        	},
+
+		{
+			"tag": "Scripting language",
+			"patterns": ["Scripting language"],
+     			"responses": "__________syntax matches with the Ruby’s syntax ?",
+     			"options": ["Java", "PHP", "Perl", "None_of_the_above"],
+        		"answer": ["Perl"]
+        	},
+
+		{
+			"tag": "Procedural language",
+			"patterns": ["Procedural language"],
+     			"responses": "__________syntax matches with the Ruby’s syntax ?",
+     			"options": ["Java", "PHP", "Perl", "None_of_the_above"],
+        		"answer": ["Perl"]
+        	},
+
+		{
+			"tag": "Style-sheet language",
+			"patterns": ["Style-sheet language"],
+     			"responses": "__________syntax matches with the Ruby’s syntax ?",
+     			"options": ["Java", "PHP", "Perl", "None_of_the_above"],
+        		"answer": ["Perl"]
+        	},
+
+		{
+			"tag": "Java",
+			"patterns": ["Java"],
+     			"responses": "What are the sequence of ruby strings ?",
+     			"options": ["8-bit bytes", "10-bit bytes", "16-bit bytes", "None_of_above"],
+        		"answer": ["8-bit bytes"]
+        	},
+
+		{
+			"tag": "PHP",
+			"patterns": ["PHP"],
+     			"responses": "What are the sequence of ruby strings ?",
+     			"options": ["8-bit bytes", "10-bit bytes", "16-bit bytes", "None_of_above"],
+        		"answer": ["8-bit bytes"]
+        	},
+
+		{
+			"tag": "Perl",
+			"patterns": ["Perl"],
+     			"responses": "What are the sequence of ruby strings ?",
+     			"options": ["8-bit bytes", "10-bit bytes", "16-bit bytes", "None_of_above"],
+        		"answer": ["8-bit bytes"]
+        	},
+
+		{
+			"tag": "None_of_the_above",
+			"patterns": ["None_of_the_above"],
+     			"responses": "What are the sequence of ruby strings ?",
+     			"options": ["8-bit bytes", "10-bit bytes", "16-bit bytes", "None_of_above"],
+        		"answer": ["8-bit bytes"]
+        	},
+
+		{
+			"tag": "8-bit bytes",
+			"patterns": ["8-bit bytes"],
+     			"responses": "Which is not a Reserved Words in Ruby ?",
+     			"options": ["Retry", "Pass", "Begin", "Ensure"],
+        		"answer": ["Pass"]
+        	},
+
+		{
+			"tag": "10-bit bytes",
+			"patterns": ["10-bit bytes"],
+     			"responses": "Which is not a Reserved Words in Ruby ?",
+     			"options": ["Retry", "Pass", "Begin", "Ensure"],
+        		"answer": ["Pass"]
+        	},
+
+		{
+			"tag": "16-bit bytes",
+			"patterns": ["16-bit bytes"],
+     			"responses": "Which is not a Reserved Words in Ruby ?",
+     			"options": ["Retry", "Pass", "Begin", "Ensure"],
+        		"answer": ["Pass"]
+        	},
+
+		{
+			"tag": "None_of_above",
+			"patterns": ["None_of_above"],
+     			"responses": "Which is not a Reserved Words in Ruby ?",
+     			"options": ["Retry", "Pass", "Begin", "Ensure"],
+        		"answer": ["Pass"]
+        	},
+
+		{
+			"tag": "Retry",
+			"patterns": ["Retry"],
+     			"responses": "Which of the following is not a valid data type in Ruby ?",
+     			"options": ["Integer", "Timedate", "Hashes", "Binary"],
+        		"answer": ["Timedate"]
+        	},
+
+		{
+			"tag": "Pass",
+			"patterns": ["Pass"],
+     			"responses": "Which of the following is not a valid data type in Ruby ?",
+     			"options": ["Integer", "Timedate", "Hashes", "Binary"],
+        		"answer": ["Timedate"]
+        	},
+
+		{
+			"tag": "Begin",
+			"patterns": ["Begin"],
+     			"responses": "Which of the following is not a valid data type in Ruby ?",
+     			"options": ["Integer", "Timedate", "Hashes", "Binary"],
+        		"answer": ["Timedate"]
+        	},
+
+		{
+			"tag": "Ensure",
+			"patterns": ["Ensure"],
+     			"responses": "Which of the following is not a valid data type in Ruby ?",
+     			"options": ["Integer", "Timedate", "Hashes", "Binary"],
+        		"answer": ["Timedate"]
+        	},
+
+		{
+			"tag": "Integer",
+			"patterns": ["Integer"],
+     			"responses": "Block comment conceals several lines from the interpreter with ?",
+     			"options": ["=start and =end", "=begin and =ending", "=here and =end", "=begin and =end"],
+        		"answer": ["=begin and =end"]
+        	},
+
+		{
+			"tag": "Timedate",
+			"patterns": ["Timedate"],
+     			"responses": "Block comment conceals several lines from the interpreter with ?",
+     			"options": ["=start and =end", "=begin and =ending", "=here and =end", "=begin and =end"],
+        		"answer": ["=begin and =end"]
+        	},
+
+		{
+			"tag": "Hashes",
+			"patterns": ["Hashes"],
+     			"responses": "Block comment conceals several lines from the interpreter with ?",
+     			"options": ["=start and =end", "=begin and =ending", "=here and =end", "=begin and =end"],
+        		"answer": ["=begin and =end"]
+        	},
+
+		{
+			"tag": "Binary",
+			"patterns": ["Binary"],
+     			"responses": "Block comment conceals several lines from the interpreter with ?",
+     			"options": ["=start and =end", "=begin and =ending", "=here and =end", "=begin and =end"],
+        		"answer": ["=begin and =end"]
+        	},
+
+		{
+			"tag": "=start and =end",
+			"patterns": ["=start and =end"],
+     			"responses": "Which of these is not a valid library function ?",
+     			"options": ["Print", "Get", "Gets", "Puts"],
+        		"answer": ["Get"]
+        	},
+
+		{
+			"tag": "=begin and =ending",
+			"patterns": ["=begin and =ending"],
+     			"responses": "Which of these is not a valid library function ?",
+     			"options": ["Print", "Get", "Gets", "Puts"],
+        		"answer": ["Get"]
+        	},
+
+		{
+			"tag": "=here and =end",
+			"patterns": ["=here and =end"],
+     			"responses": "Which of these is not a valid library function ?",
+     			"options": ["Print", "Get", "Gets", "Puts"],
+        		"answer": ["Get"]
+        	},
+
+		{
+			"tag": "=begin and =end",
+			"patterns": ["=begin and =end"],
+     			"responses": "Which of these is not a valid library function ?",
+     			"options": ["Print", "Get", "Gets", "Puts"],
+        		"answer": ["Get"]
+        	},
+
+		{
+			"tag": "Print",
+			"patterns": ["Print"],
+     			"responses": "Objects of which class does the integer from the range -2^30 to 2^(30-1) belong to ?",
+     			"options": ["Fixnum", "Bignum", "Fnum", "Bnum"],
+        		"answer": ["Fixnum"]
+        	},
+
+		{
+			"tag": "Get",
+			"patterns": ["Get"],
+     			"responses": "Objects of which class does the integer from the range -2^30 to 2^(30-1) belong to ?",
+     			"options": ["Fixnum", "Bignum", "Fnum", "Bnum"],
+        		"answer": ["Fixnum"]
+        	},
+
+		{
+			"tag": "Gets",
+			"patterns": ["Gets"],
+     			"responses": "Objects of which class does the integer from the range -2^30 to 2^(30-1) belong to ?",
+     			"options": ["Fixnum", "Bignum", "Fnum", "Bnum"],
+        		"answer": ["Fixnum"]
+        	},
+
+		{
+			"tag": "Puts",
+			"patterns": ["Puts"],
+     			"responses": "Objects of which class does the integer from the range -2^30 to 2^(30-1) belong to ?",
+     			"options": ["Fixnum", "Bignum", "Fnum", "Bnum"],
+        		"answer": ["Fixnum"]
+        	},
+
+		{
+			"tag": "Fixnum",
+			"patterns": ["Fixnum"],
+     			"responses": "What does the notation \b stands for ?",
+     			"options": ["Escape", "Space", "Backspace", "Newline"],
+        		"answer": ["Backspace"]
+        	},
+
+		{
+			"tag": "Bignum",
+			"patterns": ["Bignum"],
+     			"responses": "What does the notation \b stands for ?",
+     			"options": ["Escape", "Space", "Backspace", "Newline"],
+        		"answer": ["Backspace"]
+        	},
+
+		{
+			"tag": "Fnum",
+			"patterns": ["Fnum"],
+     			"responses": "What does the notation \b stands for ?",
+     			"options": ["Escape", "Space", "Backspace", "Newline"],
+        		"answer": ["Backspace"]
+        	},
+
+		{
+			"tag": "Bnum",
+			"patterns": ["Bnum"],
+     			"responses": "What does the notation \b stands for ?",
+     			"options": ["Escape", "Space", "Backspace", "Newline"],
+        		"answer": ["Backspace"]
+        	},
+
+		{
+			"tag": "Escape",
+			"patterns": ["Escape"],
+     			"responses": "Which of the following statement is not a feature of ruby ?",
+     			"options": ["Ruby is interpreted programming language", "Ruby can be used to write Common Gateway Interface (CGI) scripts", "Ruby can be embedded into Hypertext Markup Language (HTML)", "Ruby can not be connected to Database"],
+        		"answer": ["Ruby can not be connected to Database"]
+        	},
+
+		{
+			"tag": "Space",
+			"patterns": ["Space"],
+     			"responses": "Which of the following statement is not a feature of ruby ?",
+     			"options": ["Ruby is interpreted programming language", "Ruby can be used to write Common Gateway Interface (CGI) scripts", "Ruby can be embedded into Hypertext Markup Language (HTML)", "Ruby can not be connected to Database"],
+        		"answer": ["Ruby can not be connected to Database"]
+        	},
+
+		{
+			"tag": "Backspace",
+			"patterns": ["Backspace"],
+     			"responses": "Which of the following statement is not a feature of ruby ?",
+     			"options": ["Ruby is interpreted programming language", "Ruby can be used to write Common Gateway Interface (CGI) scripts", "Ruby can be embedded into Hypertext Markup Language (HTML)", "Ruby can not be connected to Database"],
+        		"answer": ["Ruby can not be connected to Database"]
+        	},
+
+		{
+			"tag": "Newline",
+			"patterns": ["Newline"],
+     			"responses": "Which of the following statement is not a feature of ruby ?",
+     			"options": ["Ruby is interpreted programming language", "Ruby can be used to write Common Gateway Interface (CGI) scripts", "Ruby can be embedded into Hypertext Markup Language (HTML)", "Ruby can not be connected to Database"],
+        		"answer": ["Ruby can not be connected to Database"]
+        	},
+
+		{
+			"tag": "Backend",
+			"patterns": ["Backend"],
+     			"responses": "Who is known as the father of AngularJS ?",
+     			"options": ["Brad Green", "Misko Hevery", "Adam Abrons", "Mike Adams"],
+        		"answer": ["Misko Hevery"]
+        	},
+
+		{
+			"tag": "Brad Green",
+			"patterns": ["Brad Green"],
+     			"responses": "Which of the following statement is correct for AngularJS ?",
+     			"options": ["AngularJS is an HTML framework", "AngularJS is a Java framework", "AngularJS is a JavaScript framework", "AngularJS is a SQL framework"],
+        		"answer": ["AngularJS is a JavaScript framework"]
+        	},
+
+		{
+			"tag": "Misko Hevery",
+			"patterns": ["Misko Hevery"],
+     			"responses": "Which of the following statement is correct for AngularJS ?",
+     			"options": ["AngularJS is an HTML framework", "AngularJS is a Java framework", "AngularJS is a JavaScript framework", "AngularJS is a SQL framework"],
+        		"answer": ["AngularJS is a JavaScript framework"]
+        	},
+
+		{
+			"tag": "Adam Abrons",
+			"patterns": ["Adam Abrons"],
+     			"responses": "Which of the following statement is correct for AngularJS ?",
+     			"options": ["AngularJS is an HTML framework", "AngularJS is a Java framework", "AngularJS is a JavaScript framework", "AngularJS is a SQL framework"],
+        		"answer": ["AngularJS is a JavaScript framework"]
+        	},
+
+		{
+			"tag": "Mike Adams",
+			"patterns": ["Mike Adams"],
+     			"responses": "Which of the following statement is correct for AngularJS ?",
+     			"options": ["AngularJS is an HTML framework", "AngularJS is a Java framework", "AngularJS is a JavaScript framework", "AngularJS is a SQL framework"],
+        		"answer": ["AngularJS is a JavaScript framework"]
+        	},
+
+		{
+			"tag": "AngularJS is an HTML framework",
+			"patterns": ["AngularJS is an HTML framework"],
+     			"responses": "On which of the Architectural pattern AngularJS is based ?",
+     			"options": ["Observer Pattern", "Decorator pattern", "MVC Architecture pattern", "MVVM Architectural pattern"],
+        		"answer": ["MVVM Architectural pattern"]
+        	},
+
+		{
+			"tag": "AngularJS is a Java framework",
+			"patterns": ["AngularJS is a Java framework"],
+     			"responses": "On which of the Architectural pattern AngularJS is based ?",
+     			"options": ["Observer Pattern", "Decorator pattern", "MVC Architecture pattern", "MVVM Architectural pattern"],
+        		"answer": ["MVVM Architectural pattern"]
+        	},
+
+		{
+			"tag": "AngularJS is a JavaScript framework",
+			"patterns": ["AngularJS is a JavaScript framework"],
+     			"responses": "On which of the Architectural pattern AngularJS is based ?",
+     			"options": ["Observer Pattern", "Decorator pattern", "MVC Architecture pattern", "MVVM Architectural pattern"],
+        		"answer": ["MVVM Architectural pattern"]
+        	},
+
+		{
+			"tag": "AngularJS is a SQL framework",
+			"patterns": ["AngularJS is a SQL framework"],
+     			"responses": "On which of the Architectural pattern AngularJS is based ?",
+     			"options": ["Observer Pattern", "Decorator pattern", "MVC Architecture pattern", "MVVM Architectural pattern"],
+        		"answer": ["MVVM Architectural pattern"]
+        	},
+
+		{
+			"tag": "Observer Pattern",
+			"patterns": ["Observer Pattern"],
+     			"responses": "What is the use of Angular Controllers in the application ?",
+     			"options": ["Angular controllers are used for controlling the data", "Angular controllers are used for displaying the data", "Both of the above are correct", "None of the above is correct"],
+        		"answer": ["Angular controllers are used for controlling the data"]
+        	},
+
+		{
+			"tag": "Decorator pattern",
+			"patterns": ["Decorator pattern"],
+     			"responses": "What is the use of Angular Controllers in the application ?",
+     			"options": ["Angular controllers are used for controlling the data", "Angular controllers are used for displaying the data", "Both of the above are correct", "None of the above is correct"],
+        		"answer": ["Angular controllers are used for controlling the data"]
+        	},
+
+		{
+			"tag": "MVC Architecture pattern",
+			"patterns": ["MVC Architecture pattern"],
+     			"responses": "What is the use of Angular Controllers in the application ?",
+     			"options": ["Angular controllers are used for controlling the data", "Angular controllers are used for displaying the data", "Both of the above are correct", "None of the above is correct"],
+        		"answer": ["Angular controllers are used for controlling the data"]
+        	},
+
+		{
+			"tag": "MVVM Architectural pattern",
+			"patterns": ["MVVM Architectural pattern"],
+     			"responses": "What is the use of Angular Controllers in the application ?",
+     			"options": ["Angular controllers are used for controlling the data", "Angular controllers are used for displaying the data", "Both of the above are correct", "None of the above is correct"],
+        		"answer": ["Angular controllers are used for controlling the data"]
+        	},
+
+		{
+			"tag": "Angular controllers are used for controlling the data",
+			"patterns": ["Angular controllers are used for controlling the data"],
+     			"responses": "Which of the following syntax is used to create a module in AngularJS ?",
+     			"options": ["var myModule= angular.module();", "var myModule= new Module();", "module(app, []);", "None of the above mentioned"],
+        		"answer": ["module(app, []);"]
+        	},
+
+		{
+			"tag": "Angular controllers are used for displaying the data",
+			"patterns": ["Angular controllers are used for displaying the data"],
+     			"responses": "Which of the following syntax is used to create a module in AngularJS ?",
+     			"options": ["var myModule= angular.module();", "var myModule= new Module();", "module(app, []);", "None of the above mentioned"],
+        		"answer": ["module(app, []);"]
+        	},
+
+		{
+			"tag": "Both of the above are correct",
+			"patterns": ["Both of the above are correct"],
+     			"responses": "Which of the following syntax is used to create a module in AngularJS ?",
+     			"options": ["var myModule= angular.module();", "var myModule= new Module();", "module(app, []);", "None of the above mentioned"],
+        		"answer": ["module(app, []);"]
+        	},
+
+		{
+			"tag": "None of the above is correct",
+			"patterns": ["None of the above is correct"],
+     			"responses": "Which of the following syntax is used to create a module in AngularJS ?",
+     			"options": ["var myModule= angular.module();", "var myModule= new Module();", "module(app, []);", "None of the above mentioned"],
+        		"answer": ["module(app, []);"]
+        	},
+
+		{
+			"tag": "var myModule= angular.module();",
+			"patterns": ["var myModule= angular.module();"],
+     			"responses": "Which of the following is used to share data between controller and view in AngularJS ?",
+     			"options": ["Using Model", "Using services", "Using factory", "Using $scope"],
+        		"answer": ["Using services"]
+        	},
+
+		{
+			"tag": "var myModule= new Module();",
+			"patterns": ["var myModule= new Module();"],
+     			"responses": "Which of the following is used to share data between controller and view in AngularJS ?",
+     			"options": ["Using Model", "Using services", "Using factory", "Using $scope"],
+        		"answer": ["Using services"]
+        	},
+
+		{
+			"tag": "module(app, []);",
+			"patterns": ["module(app, []);"],
+     			"responses": "Which of the following is used to share data between controller and view in AngularJS ?",
+     			"options": ["Using Model", "Using services", "Using factory", "Using $scope"],
+        		"answer": ["Using services"]
+        	},
+
+		{
+			"tag": "None of the above mentioned",
+			"patterns": ["None of the above mentioned"],
+     			"responses": "Which of the following is used to share data between controller and view in AngularJS ?",
+     			"options": ["Using Model", "Using services", "Using factory", "Using $scope"],
+        		"answer": ["Using services"]
+        	},
+
+		{
+			"tag": "Using Model",
+			"patterns": ["Using Model"],
+     			"responses": "Which of the following is not a valid AngularJS filter ?",
+     			"options": ["Lowercase", "Orderby", "Email", "Currency"],
+        		"answer": ["Email"]
+        	},
+
+		{
+			"tag": "Using services",
+			"patterns": ["Using services"],
+     			"responses": "Which of the following is not a valid AngularJS filter ?",
+     			"options": ["Lowercase", "Orderby", "Email", "Currency"],
+        		"answer": ["Email"]
+        	},
+
+		{
+			"tag": "Using factory",
+			"patterns": ["Using factory"],
+     			"responses": "Which of the following is not a valid AngularJS filter ?",
+     			"options": ["Lowercase", "Orderby", "Email", "Currency"],
+        		"answer": ["Email"]
+        	},
+
+		{
+			"tag": "Using $scope",
+			"patterns": ["Using $scope"],
+     			"responses": "Which of the following is not a valid AngularJS filter ?",
+     			"options": ["Lowercase", "Orderby", "Email", "Currency"],
+        		"answer": ["Email"]
+        	},
+
+		{
+			"tag": "Lowercase",
+			"patterns": ["Lowercase"],
+     			"responses": "Which of the following community Angular JS belong to ?",
+     			"options": ["Twitter", "Facebook", "Google", "Microsoft"],
+        		"answer": ["Google"]
+        	},
+
+		{
+			"tag": "Orderby",
+			"patterns": ["Orderby"],
+     			"responses": "Which of the following community Angular JS belong to ?",
+     			"options": ["Twitter", "Facebook", "Google", "Microsoft"],
+        		"answer": ["Google"]
+        	},
+
+		{
+			"tag": "Email",
+			"patterns": ["Email"],
+     			"responses": "Which of the following community Angular JS belong to ?",
+     			"options": ["Twitter", "Facebook", "Google", "Microsoft"],
+        		"answer": ["Google"]
+        	},
+
+		{
+			"tag": "Currency",
+			"patterns": ["Currency"],
+     			"responses": "Which of the following community Angular JS belong to ?",
+     			"options": ["Twitter", "Facebook", "Google", "Microsoft"],
+        		"answer": ["Google"]
+        	},
+
+		{
+			"tag": "Twitter",
+			"patterns": ["Twitter"],
+     			"responses": "Which file is responsible for startup of angular 2 project ?",
+     			"options": ["main.ts", "index.js", "app.ts", "angular.cli.json"],
+        		"answer": ["main.ts"]
+        	},
+
+		{
+			"tag": "Facebook",
+			"patterns": ["Facebook"],
+     			"responses": "Which file is responsible for startup of angular 2 project ?",
+     			"options": ["main.ts", "index.js", "app.ts", "angular.cli.json"],
+        		"answer": ["main.ts"]
+        	},
+
+		{
+			"tag": "Google",
+			"patterns": ["Google"],
+     			"responses": "Which file is responsible for startup of angular 2 project ?",
+     			"options": ["main.ts", "index.js", "app.ts", "angular.cli.json"],
+        		"answer": ["main.ts"]
+        	},
+
+		{
+			"tag": "Microsoft",
+			"patterns": ["Microsoft"],
+     			"responses": "Which file is responsible for startup of angular 2 project ?",
+     			"options": ["main.ts", "index.js", "app.ts", "angular.cli.json"],
+        		"answer": ["main.ts"]
+        	},
+
+		{
+			"tag": "main.ts",
+			"patterns": ["main.ts"],
+     			"responses": "Which of the following components can be injected as a dependency in AngularJS ?",
+     			"options": ["Value", "Factory", "Constant", "Application Module"],
+        		"answer": ["Application Module"]
+        	},
+
+		{
+			"tag": "index.js",
+			"patterns": ["index.js"],
+     			"responses": "Which of the following components can be injected as a dependency in AngularJS ?",
+     			"options": ["Value", "Factory", "Constant", "Application Module"],
+        		"answer": ["Application Module"]
+        	},
+
+		{
+			"tag": "app.ts",
+			"patterns": ["app.ts"],
+     			"responses": "Which of the following components can be injected as a dependency in AngularJS ?",
+     			"options": ["Value", "Factory", "Constant", "Application Module"],
+        		"answer": ["Application Module"]
+        	},
+
+		{
+			"tag": "angular.cli.json",
+			"patterns": ["angular.cli.json"],
+     			"responses": "Which of the following components can be injected as a dependency in AngularJS ?",
+     			"options": ["Value", "Factory", "Constant", "Application Module"],
+        		"answer": ["Application Module"]
+        	}
+		
+   	    ]
+}
