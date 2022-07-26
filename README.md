@@ -4,6 +4,9 @@ Freego Passport is employment platform where a test conducted to measure candida
 <br>
 # DataBase.
 Database consist of collection of questions and their respective choices. Questions are divided into different category and question are grouped together based on their categories. Then the database is converted in JSON formatt which has four attribute and they are
-<br /> 1. Tag
-<br /> 2. Pattern
-<br /> 3. 
+<br /> 1. Tag.
+<br /> 2. Pattern.
+<br /> 3. Response.
+<br /> 4. Options.
+<br /> 5. Answer.
+<br /> 
