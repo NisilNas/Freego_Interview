@@ -18,4 +18,10 @@ Pre-Processing technique used on data is Natural Language Processing (NLP). The 
 <br /> 3. BagOfWords.
 <br /> 4. Tokenization.
 <br>
-# Input Variable & Response Varialbe
+# Input Variable & Response Variable.
+Input is pattern and Output is Response ie. Input is categories and output is Questions. Input is  pre-processed using bag of word representation where each row length is length of dictionary. Position in which category Occur is appended as 1 and rest as 0. A Classes list is created which consist of collection of all Question. Output is question where row length is lenght of classes and initialy every value is 0 then position which question occur in classes that position in output is append as 1.
+<br>
+# Model.
+Model is trained using deep learning techinque and model used is Sequencial model with dense, dropout and activation layer. Optimizer used is SGD optimizer and optimizer method is nestedrov.
+# ChatBot
+Quiz platform is created with chatbot and it is implemented using tkinder module
