@@ -9,4 +9,4 @@ Database consist of collection of questions and their respective choices. Questi
 <br /> 3. Response.
 <br /> 4. Options.
 <br /> 5. Answer.
-<br /> 
+<br /> Categories that are devided in the database are mentioned in Tag and Pattern. Questions based on categories are mentioned in response. Choice of question are mentioned in Choice. Correct answer of the question is mentioned in Answer.
